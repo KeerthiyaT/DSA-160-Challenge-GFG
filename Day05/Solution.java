@@ -7,7 +7,7 @@ class Solution {
             if(arr[i]<arr[i+1]){
                 pivot=i;
                 break;
-            }
+            } 
         }
     
         if(pivot==-1){
