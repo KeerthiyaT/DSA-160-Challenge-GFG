@@ -10,7 +10,7 @@ class Solution {
                int max=Math.max(arr[n-1]-k,arr[i]+k);
                if(min<0) continue;
                res=Math.min(res,max-min);
-            
+          
         }
         return res;
     }
