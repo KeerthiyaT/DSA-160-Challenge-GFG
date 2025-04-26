@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
     public int maximumProfit(int prices[]) {
         int minimum=prices[0];
         int n=prices.length;
